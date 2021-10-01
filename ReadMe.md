@@ -220,7 +220,7 @@ http localhost:8080/productions
  ![주문1-제조 상태 변경](https://i.imgur.com/2BbTc4F.png)
  
 #### 5. 바리스타가 음료 제조를 완료한다.
-- 주문타입이 '`DELIVERY`' 만 배달 서비스에 데이터를 등록한다.
+- 배달 서비스에 데이터를 등록한다.
 ```
 http PATCH localhost:8080/productions/1 status="COMPLETED"
 
